@@ -1,0 +1,5 @@
+;; Erlang mode (installed via Homebrew)
+(setq load-path (cons"/usr/local/Cellar/erlang/R14B04/lib/erlang/lib/tools-2.6.6.5/emacs" load-path))
+(setq erlang-root-dir "/usr/local/Cellar/erlang/R14B04/lib/erlang/lib")
+(setq exec-path (cons "/usr/local/Cellar/erlang/R14B04/lib/erlang/bin" exec-path))
+(require 'erlang-start)

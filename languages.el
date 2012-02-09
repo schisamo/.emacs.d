@@ -1,0 +1,7 @@
+(load-file (concat root-dir "languages/css.el"))
+(load-file (concat root-dir "languages/erlang.el"))
+(load-file (concat root-dir "languages/javascript.el"))
+(load-file (concat root-dir "languages/markdown.el"))
+(load-file (concat root-dir "languages/shell-script.el"))
+(load-file (concat root-dir "languages/ruby.el"))
+(load-file (concat root-dir "languages/yaml.el"))
