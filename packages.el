@@ -70,11 +70,16 @@
                :features tree-mode)
         (:name yaml-mode
                :type git
-               :url "http://github.com/yoshiki/yaml-mode.git"
+               :url "https://github.com/yoshiki/yaml-mode.git"
                :features yaml-mode)
         (:name windata
                :type emacswiki
-               :features windata)))
+               :features windata)
+        (:name erlang
+                :type git
+                :url "https://github.com/erlang/otp.git"
+                :load-path ("./lib/tools/emacs")
+                :shallow t)))
 
 ;;
 ;; My Packages
