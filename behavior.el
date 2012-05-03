@@ -37,3 +37,10 @@
       (when (boundp 'smex-cache)
         (smex-update)))
     (add-hook 'after-load-functions 'smex-update-after-load)
+
+;; http://stackoverflow.com/questions/5201052/how-to-prevent-emacs-annoying-habit-of-adding-the-current-word-to-any-command-bu
+
+(setq ido-enable-flex-matching t)
+(setq ido-use-filename-at-point nil)
+(setq ido-everywhere t)
+(ido-mode 1)
